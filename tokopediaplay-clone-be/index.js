@@ -1,5 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import cors from 'cors';
 import videoRouter from './routes/Video.js';
 import commentRouter from './routes/Comment.js';
 import productRouter from './routes/Product.js';
@@ -20,6 +21,8 @@ const start = () => {
     // config express json
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
+    // cors
+    app.use(cors());
 
     // config route
     app.use(videoRouter);
