@@ -17,6 +17,7 @@ Colletions:
     {
         _id: string
         url_thumbnail: string
+        video_url: string
     }
     ```
 
@@ -105,6 +106,7 @@ Create a new video and return the new object
 {
     name: string,
     url_thumbnail: string
+    video_url: string
 }
 ```
 * **Success Response**
@@ -116,6 +118,7 @@ Create a new video and return the new object
         _id: string,
         name: string,
         url_thumbnail: string,
+        video_url: string
     }
 }
 ```
@@ -167,6 +170,7 @@ Returns the specified videos.
         _id: string,
         name: string,
         url_thumbnail: string,
+        video_url: string
     }
 }
 ```

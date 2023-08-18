@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 import Video from "../models/Video.js";
 
-export const addVideo = (name, thumbnail) => {
-    const newVideo = Video.create({ name: name, url_thumbnail: thumbnail });
+export const addVideo = (name, thumbnail, video_url) => {
+    const newVideo = Video.create({ name: name, url_thumbnail: thumbnail, video_url: video_url });
 
     return newVideo;
 };

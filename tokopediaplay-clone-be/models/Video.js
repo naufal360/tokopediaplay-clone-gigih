@@ -9,6 +9,10 @@ const videoSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    video_url: {
+        type: String,
+        required: true,
+    },
 });
 
 const Video = new mongoose.model('Video', videoSchema);

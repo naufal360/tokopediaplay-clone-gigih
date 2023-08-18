@@ -2,9 +2,9 @@ import { createVideoService, getAllVideosService, getVideoByIdService } from "..
 
 export const createVideo = async (req, res) => {
     try {
-        const { name, url_thumbnail } = req.body;
+        const { name, url_thumbnail, video_url } = req.body;
 
-        const newVideo = await createVideoService(name, url_thumbnail);
+        const newVideo = await createVideoService(name, url_thumbnail, video_url);
 
         res.status(201).json({
             data: newVideo,

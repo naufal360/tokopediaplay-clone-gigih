@@ -1,7 +1,7 @@
 import { addVideo, getAllVideos, getVideoById } from "../repositories/Video.js";
 
-export const createVideoService = (name, thumbnail) => {
-    const newVideo = addVideo(name, thumbnail);
+export const createVideoService = (name, thumbnail, video_url) => {
+    const newVideo = addVideo(name, thumbnail, video_url);
 
     return newVideo;
 };
