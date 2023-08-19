@@ -1,7 +1,7 @@
 import { addProduct, getAllProducts, getProductById, getProductByVideoId } from "../repositories/Product.js";
 
-export const createProductService = (link, title, price, video_id) => {
-    const newProduct = addProduct(link, title, price, video_id);
+export const createProductService = (link, title, price, video_id, url_thumbnail) => {
+    const newProduct = addProduct(link, title, price, video_id, url_thumbnail);
 
     return newProduct;
 };

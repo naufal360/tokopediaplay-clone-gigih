@@ -1,7 +1,7 @@
 import Product from "../models/Product.js";
 
-export const addProduct = (link, title, price, video_id) => {
-    const newProduct = Product.create({ link, title, price, video_id });
+export const addProduct = (link, title, price, video_id, url_thumbnail) => {
+    const newProduct = Product.create({ link, title, price, video_id, url_thumbnail });
 
     return newProduct;
 };

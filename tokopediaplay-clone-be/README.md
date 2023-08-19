@@ -33,6 +33,7 @@ Colletions:
         title: string
         price: integer
         video_id: string
+        url_thumbnail: string
     }
     ```
 
@@ -194,7 +195,8 @@ Create a new product and return the new object
     link: string,
     title: string,
     price: string,
-    video_id: string
+    video_id: string,
+    url_thumbnail: string
 }
 ```
 * **Success Response**
@@ -207,7 +209,8 @@ Create a new product and return the new object
         link: string,
         title: string,
         price: string,
-        video_id: string
+        video_id: string,
+        url_thumbnail: string
     }
 }
 ```
@@ -234,7 +237,8 @@ Returns the specified product by video id params.
         link: string,
         title: string,
         price: string,
-        video_id: string
+        video_id: string,
+        url_thumbnail: string
     }
 }
 ```

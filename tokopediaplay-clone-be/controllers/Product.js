@@ -2,9 +2,9 @@ import { createProductService, getAllProductsService, getProductByIdService, get
 
 export const createProduct = async (req, res) => {
     try {
-        const { link, title, price, video_id } = req.body;
+        const { link, title, price, video_id, url_thumbnail } = req.body;
 
-        const newProduct = await createProductService(link, title, price, video_id);
+        const newProduct = await createProductService(link, title, price, video_id, url_thumbnail);
 
         res.status(201).json({
             data: newProduct,
