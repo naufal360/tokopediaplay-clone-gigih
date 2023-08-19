@@ -4,6 +4,9 @@ Hello everyone👋,
 
 So, this is a **Gigih** mid term project assignment. The assignment need us to create an API with **Express JS** and connect it with NoSQL **MongoDB** database. The idea is to create a Tokopedia Play clone. Hope this readme file helps what you need to understand the API.
 
+## Production Deployment
+The app has been deployed to vercel.com, and you can access it using the following link: https://tokopediaplay-clone-gigih-api.vercel.app/
+
 ## Database Structure
 Database: `mid_term_db`
 

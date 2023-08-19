@@ -1,8 +1,17 @@
-# React + Vite
+# Tokopedia Clone React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a clone of the Tokopedia Play app, built using React.js. The app aims to replicate the functionality of the Tokopedia Play platform, allowing users to watch videos, explore product-related content, and leave comments on videos.
 
-Currently, two official plugins are available:
+## Production Deployment
+The app has been deployed to vercel.com, and you can access it using the following link: https://tokopediaplay-clone-gigih.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Running Locally
+To run the app locally on your development environment, follow these steps:
+1. Ensure you have Node.js and npm (Node Package Manager) installed on your machine.
+2. Clone or download this repository to your local machine.
+3. Open a terminal and navigate to the project directory.
+4. In the terminal, run the following command:
+
+```bash
+npm start
+```
